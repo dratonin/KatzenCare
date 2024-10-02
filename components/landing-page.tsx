@@ -40,7 +40,9 @@ export function LandingPageComponent() {
               </div>
               <div className="space-x-4">
                 <Button className="bg-orange-500 text-white hover:bg-orange-600">App herunterladen</Button>
-                <Button variant="outline">Mehr erfahren</Button>
+                <Link href="/about-us">
+                  <Button variant="outline">Mehr erfahren</Button>
+                  </Link>
               </div>
             </div>
           </div>
