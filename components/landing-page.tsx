@@ -1,5 +1,3 @@
-'use client'
-
 import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
@@ -23,6 +21,9 @@ export function LandingPageComponent() {
           </Link>
           <Link className="text-sm font-medium hover:underline underline-offset-4" href="#download">
             App herunterladen
+          </Link>
+          <Link className="text-sm font-medium hover:underline underline-offset-4" href="/contact">
+            Kontakt
           </Link>
         </nav>
       </header>
