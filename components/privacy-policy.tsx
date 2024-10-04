@@ -8,7 +8,7 @@ export default function PrivacyPolicy() {
       <header className="px-4 lg:px-6 h-16 flex items-center bg-orange-100">
         <Link className="flex items-center justify-center" href="/">
           <Cat className="h-6 w-6 text-orange-500" />
-          <span className="ml-2 text-2xl font-bold text-orange-700">KatzenCare</span>
+          <span className="ml-2 text-2xl font-bold text-orange-700">PawPals</span>
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6">
           <Link className="text-sm font-medium hover:underline underline-offset-4" href="/">
@@ -23,7 +23,7 @@ export default function PrivacyPolicy() {
             <section>
               <h2 className="text-xl font-semibold mb-2 text-orange-600">1. Einleitung</h2>
               <p>
-                Wir bei KatzenCare nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Diese Datenschutzerklärung
+                Wir bei PawPals nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Diese Datenschutzerklärung
                 informiert Sie darüber, wie wir mit Ihren Daten umgehen und welche Rechte Sie haben.
               </p>
             </section>
@@ -31,7 +31,7 @@ export default function PrivacyPolicy() {
               <h2 className="text-xl font-semibold mb-2 text-orange-600">2. Datenerhebung und -verwendung</h2>
               <p>
                 Wir erheben nur die Daten, die für die Nutzung unserer App notwendig sind. Dies umfasst Ihren Namen,
-                Ihre E-Mail-Adresse und Informationen über Ihre Katze(n).
+                Ihre E-Mail-Adresse und Informationen über Ihr Haustier.
               </p>
             </section>
             <section>
@@ -52,7 +52,7 @@ export default function PrivacyPolicy() {
         </div>
       </main>
       <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t bg-orange-100">
-        <p className="text-xs text-gray-600">© 2024 KatzenCare. Alle Rechte vorbehalten.</p>
+        <p className="text-xs text-gray-600">© 2024 PawPals. Alle Rechte vorbehalten.</p>
         <nav className="sm:ml-auto flex gap-4 sm:gap-6">
           <Link className="text-xs hover:underline underline-offset-4" href="/privacy-policy">
             Datenschutz
